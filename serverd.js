@@ -10,7 +10,7 @@ mongoose.connect('mongodb+srv://lriosbas:negro@empresasbiologicas.6onjklr.mongod
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
-
+~/Descargas/Proyecto_biologico_nuclear
 const db = mongoose.connection;
 db.on('error', console.error.bind(console, 'Error de conexión a MongoDB:'));
 db.once('open', () => {

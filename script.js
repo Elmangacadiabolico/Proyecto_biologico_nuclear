@@ -7,7 +7,7 @@ const oppositeLipids = {
     C: "G",
     G: "C",
 };
-const traduccionlol = {};
+const traduccionDOGMA = {};
 
 const outputDiv = document.getElementById("output");
 const oppositeOutputDiv = document.getElementById("oppositeOutput");
