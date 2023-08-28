@@ -3,9 +3,11 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Caprasimo&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Caprasimo&display=swap"
+            rel="stylesheet" />
 
         <link rel="stylesheet" href="/style.css" />
         <link
@@ -169,15 +171,22 @@
                         class="btn btn-success dogmaButtons botonverde"
                         data-bs-toggle="dropdown"
                         aria-expanded="false"
-                        data-bs-auto-close="outside">
-                        Guardado
+                        data-bs-auto-close="outside"
+                        id="GuardadoDeDogmas">
+                        Guardar
                     </button>
                 </div>
                 <div class="contenedorInputs">
-                    <div  id="output" class="text0"></div>
+                    <div id="output" class="text0"></div>
                     <div id="oppositeOutput" class="text0"></div>
                     <div id="traduccion" class="text0"></div>
                 </div>
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <div id="Guardado0utput" class="SaveConteiners"></div>
+                        <div id="  Guardado0utput"></div>
+                        <div id=" GuardadoOppositeOutput"></div>
+                    </div>
             </div>
         </div>
 
@@ -185,9 +194,8 @@
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
             crossorigin="anonymous"></script>
-        <script src="/script.js"></script>
-
-     
-
+        <script src="./noOriginal.js"></script>
+        <script src="/controllers/Save.js"></script>
+        <script src="/serverd.js"></script>
     </body>
 </html>
